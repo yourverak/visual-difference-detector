@@ -82,7 +82,9 @@ $$\text{IoU} = \frac{|A \cap B|}{|A \cup B|}$$
 | **Avg. Execution Time** | **~0.08–0.11 sec** | Tested on single-core CPU (**800 × 600** input) |
 | **Memory Footprint** | **Minimal** | In-place array operations & vectorized memory views |
 | **External CV Dependencies** | **0 (Zero)** | No OpenCV, SciPy, or scikit-image required |
-
+<br>
+<br>
+<br>
 # Zero-Dependency Visual Difference Detector & Image Aligner
 Высокоточный алгоритм компьютерного зрения для автоматического обнаружения визуальных аномалий и геометрического выравнивания (аффинной деформации), разработанный **полностью с нуля без сторонних зависимостей**.
 
