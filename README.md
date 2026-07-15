@@ -42,7 +42,7 @@ The execution pipeline is decoupled into five sequential, highly optimized stage
          │
          ▼
 [High-Precision Binary Difference Mask]
-
+```
 
 ### 1. Geometric Alignment via Ordinary Least Squares (OLS)
 To realign images subjected to translation, scaling, and shear, the algorithm locates four registration markers in the target grid. Rather than assuming a simple linear shift, we model the mapping as an affine transformation.
